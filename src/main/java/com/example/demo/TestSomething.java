@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TestSomething {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        int low = 0;
 //        int high = 5;
 //        String format = String.format("%.3f", 5.0);
@@ -83,15 +83,10 @@ public class TestSomething {
 //        System.out.println(queue);
 //        queue.remove(null);
 
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        set.add(2);
-        set.add(3);
-        int i = set.stream().mapToInt(Integer::valueOf).max().orElseGet(null);
-        System.out.println(i);
-
-        int[] a = new int[0];
+        int a = 1_0_0_0;
         System.out.println(a);
+
+
     }
 
     /**
