@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class FindRange {
     public static void main(String[] args) {
-//        int[] a = {5,7,7,8,8,10};
-        int[] a = {};
-        int target = 0;
+        int[] a = {5,7,7,8,8,10};
+//        int[] a = {};
+        int target = 8;
         int[] range = findRange(a, target);
         System.out.println(Arrays.toString(range));
 
